@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Inc">
+      <UniqueIdentifier>{08775533-5f51-4888-990a-d3e6f7a73f5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src">
+      <UniqueIdentifier>{3f2dc2f2-a005-403a-a3de-712ecc2c326d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\Terrain">
+      <UniqueIdentifier>{40599aba-4121-43fa-8c5c-b41a586b606f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inc\App">
+      <UniqueIdentifier>{297f9dd7-cc9e-4498-ba99-8cbf7ff91814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\App">
+      <UniqueIdentifier>{951fa642-9cb4-4bcc-a7b9-ea8ab8688c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Src\Terrain">
+      <UniqueIdentifier>{66e31897-d8a4-44cc-84af-4dde60b4000e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Inc\Common.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\SB.h">
+      <Filter>Inc</Filter>
+    </ClInclude>
+    <ClInclude Include="Src\Precomplied.h">
+      <Filter>Src</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\Terrain.h">
+      <Filter>Inc\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\App.h">
+      <Filter>Inc\App</Filter>
+    </ClInclude>
+    <ClInclude Include="Inc\AppState.h">
+      <Filter>Inc\App</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Src\Precompiled.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\SB.cpp">
+      <Filter>Src</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\App.cpp">
+      <Filter>Src\App</Filter>
+    </ClCompile>
+    <ClCompile Include="Src\Terrain.cpp">
+      <Filter>Src\Terrain</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
